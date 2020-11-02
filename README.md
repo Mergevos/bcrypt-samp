@@ -2,6 +2,12 @@
 
 An implementation of bcrypt password hashing library for Pawn, written in C/C++.
 
+## Fork?
+
+Yes, I've forked this, because lassir most likely do not maintain this anymore. I've fixed the `const` errors.  
+This is not intended to be copy or something else, this is just my fork and fix of his library. 
+Feel free to use this.
+
 ## Benefits of bcrypt
 
 * All passwords are automatically salted
