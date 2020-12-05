@@ -1,6 +1,7 @@
 {
     "user": "Mergevos",
     "repo": "bcrypt-samp",
+    "tag": "v2.2.3",
     "include_path": "pawn",
     "resources": [
         {

@@ -28,17 +28,17 @@ See the [Wiki](wiki) for detailed usage.
 
 ## Installation
 
-### Linux
+### sampctl users
+
+Simply install in one line: 
+```bash
+sampctl package install Mergevos/bcrypt-samp
+```
+
+### Non-sampctl users
 
 1. Copy `bcrypt-samp.so` to the `plugins` folder
 2. Add `plugins bcrypt-samp.so` to server.cfg
-3. Copy `bcrypt.inc` to the compiler's include directory (`pawno/include` by default)
-4. Add `#include <bcrypt>` to your gamemode or filterscript
-
-### Windows
-
-1. Copy `bcrypt-samp.dll` to the `plugins` folder
-2. Add `plugins bcrypt-samp` to server.cfg
 3. Copy `bcrypt.inc` to the compiler's include directory (`pawno/include` by default)
 4. Add `#include <bcrypt>` to your gamemode or filterscript
 
