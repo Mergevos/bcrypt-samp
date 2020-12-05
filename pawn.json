@@ -1,7 +1,7 @@
 {
     "user": "Mergevos",
     "repo": "bcrypt-samp",
-    "tag": "v2.2.7",
+    "tag": "v2.2.8",
     "include_path": "pawn",
     "resources": [
         {
@@ -18,6 +18,6 @@
         }
     ],
     "runtime": {
-        "plugins": ["lassir/bcrypt-samp"]
+        "plugins": ["Mergevos/bcrypt-samp"]
     }
 }
