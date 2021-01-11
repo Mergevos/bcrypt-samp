@@ -26,7 +26,7 @@
 #define bcrypt_included
 
 #define BCRYPT_HASH_LENGTH 61
-#define BCRYPT_PLUGIN_VERSION "2.2.4"
+#define BCRYPT_PLUGIN_VERSION "2.3.0"
 
 enum BCRYPT_DEBUG_LEVEL {
 	BCRYPT_LOG_FATAL,
@@ -39,7 +39,7 @@ enum BCRYPT_DEBUG_LEVEL {
 
 native bcrypt_hash(const key[], cost = 12, const callback_name[], const callback_format[] = "", {Float, _}:...);
 native bcrypt_check(const password[], const hash[], const callback_name[], const callback_format[] = "", {Float, _}:...);
-native bcrypt_get_hash(const dest[]);
+native bcrypt_get_hash(dest[]);
 native bool:bcrypt_is_equal();
 native bool:bcrypt_needs_rehash(const hash[], cost);
 native bcrypt_find_cost(time_target = 250);
