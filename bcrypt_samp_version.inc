@@ -3,5 +3,5 @@
 // To update the version number for a new release, run "sampctl package release"
 
 #define BCRYPT_SAMP_VERSION_MAJOR (2)
-#define BCRYPT_SAMP_VERSION_MINOR (2)
-#define BCRYPT_SAMP_VERSION_PATCH (9)
+#define BCRYPT_SAMP_VERSION_MINOR (3)
+#define BCRYPT_SAMP_VERSION_PATCH (0)
